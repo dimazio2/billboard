@@ -20,3 +20,5 @@ song_names_spans = soup.find_all(name="span", class_="chart-element__information
 song_names = [song.get_text() for song in song_names_spans]
 
 print(song_names)
+
+driver.quit()
